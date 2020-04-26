@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./ChooseSide.css";
-import "../../assests/css/common.css";
+import "../../assets/css/common.css";
 
 function ChooseSide(props) {
   const [side, setSide] = useState("cross");
@@ -11,7 +11,7 @@ function ChooseSide(props) {
         <div className="flex mb-20">
           <div className={`mr-5 flex column align-center ${side==='zero' && 'transition-opacity'}`}>
             <img
-              src={require("../../assests/images/x.png")}
+              src={require("../../assets/images/x.png")}
               alt="cross"
               className="icons mb-12"
             />
@@ -33,7 +33,7 @@ function ChooseSide(props) {
           </div>
           <div className={`mr-5 flex column align-center ${side==='cross' && 'transition-opacity'}`}>
             <img
-              src={require("../../assests/images/o.png")}
+              src={require("../../assets/images/o.png")}
               alt="zero"
               className="icons mb-12"
             />

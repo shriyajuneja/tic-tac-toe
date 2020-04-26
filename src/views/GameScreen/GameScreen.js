@@ -2,7 +2,7 @@ import React from "react";
 import Settings from "../../components/settings/settings";
 
 //styles
-import "../../assests/css/common.css";
+import "../../assets/css/common.css";
 import "./GameScreen.css";
 
 const name = "Alex";
@@ -14,14 +14,14 @@ function GameScreen(props) {
           <tr>
             <td className="border-bottom border-right">
               <img
-                src={require("../../assests/images/x.png")}
+                src={require("../../assets/images/x.png")}
                 alt="cross"
                 className="table-icon"
               />
             </td>
             <td className="border-bottom border-right px-2">
               <img
-                src={require("../../assests/images/o.png")}
+                src={require("../../assets/images/o.png")}
                 alt="zero"
                 className="table-icon"
               />
@@ -32,14 +32,14 @@ function GameScreen(props) {
             <td className="border-bottom border-right"></td>
             <td className="border-bottom border-right px-2">
               <img
-                src={require("../../assests/images/o.png")}
+                src={require("../../assets/images/o.png")}
                 alt="zero"
                 className="table-icon"
               />
             </td>
             <td className="border-bottom">
               <img
-                src={require("../../assests/images/o.png")}
+                src={require("../../assets/images/o.png")}
                 alt="zero"
                 className="table-icon"
               />
@@ -48,7 +48,7 @@ function GameScreen(props) {
           <tr>
             <td className="border-right">
               <img
-                src={require("../../assests/images/x.png")}
+                src={require("../../assets/images/x.png")}
                 alt="cross"
                 className="table-icon"
               />
@@ -56,7 +56,7 @@ function GameScreen(props) {
             <td className="border-right px-2"></td>
             <td>
               <img
-                src={require("../../assests/images/x.png")}
+                src={require("../../assets/images/x.png")}
                 alt="cross"
                 className="table-icon"
               />

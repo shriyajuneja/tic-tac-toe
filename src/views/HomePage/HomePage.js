@@ -1,6 +1,6 @@
 import React from "react";
 import Settings from "../../components/settings/settings";
-import "../../assests/css/common.css"
+import "../../assets/css/common.css"
 
 function HomePage(props) {
   function redirectToChooseSide() {
@@ -11,12 +11,12 @@ function HomePage(props) {
       <div className="flex align-center column container">
         <div className="flex mb-15">
           <img
-            src={require("../../assests/images/x.png")}
+            src={require("../../assets/images/x.png")}
             alt="cross"
             className="icons"
           />
           <img
-            src={require("../../assests/images/o.png")}
+            src={require("../../assets/images/o.png")}
             alt="zero"
             className="icons "
           />

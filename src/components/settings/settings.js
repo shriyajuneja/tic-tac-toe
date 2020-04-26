@@ -5,7 +5,7 @@ function Settings(props) {
   return (
     <div className="setting-container">
       <img
-        src={require("../../assests/images/settings.svg")}
+        src={require("../../assets/images/settings.svg")}
         alt="settings"
         onClick={() => props.history.push("/")}
       />
