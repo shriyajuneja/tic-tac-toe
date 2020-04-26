@@ -1,0 +1,85 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    min-width: 480px;
+    min-height: 600px;
+    padding: 80px 60px;
+    border-radius: 18px;
+    box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.2);
+  }
+}
+.icons {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+}
+button {
+  border-radius: 18px;
+  height: 40px;
+  width: 150px;
+  box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  font-weight: 500;
+}
+.theme {
+  color: #ffffff;
+  background-color: #1b5daf;
+}
+.white {
+  background-color: #ffffff;
+  color: #000;
+}
+.w-100 {
+  width: 100%;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.column {
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.mr-2 {
+  margin-right: 8px;
+}
+.mr-5 {
+  margin-right: 20px;
+}
+.mb-2 {
+  margin-bottom: 8px;
+}
+.mb-3 {
+  margin-bottom: 12px;
+}
+.mb-5 {
+  margin-bottom: 20px;
+}
+.mb-7 {
+  margin-bottom: 28px;
+}
+.mb-10 {
+  margin-bottom: 40px;
+}
+.mb-12 {
+  margin-bottom: 48px;
+}
+.mb-15 {
+  margin-bottom: 60px;
+}
+.mb-20 {
+  margin-bottom: 80px;
+}
