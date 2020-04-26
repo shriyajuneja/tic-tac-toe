@@ -1,14 +1,16 @@
 import React from "react";
-import "./settings.css"
-function Settings() {
+import { withRouter } from "react-router-dom";
+import "./settings.css";
+function Settings(props) {
   return (
     <div className="setting-container">
-    <img
-      src={require("../../assests/images/settings.svg")}
-      alt="settings"
-    />
-  </div>
+      <img
+        src={require("../../assests/images/settings.svg")}
+        alt="settings"
+        onClick={() => props.history.push("/")}
+      />
+    </div>
   );
 }
 
-export default Settings
+export default withRouter(Settings);
