@@ -31,7 +31,7 @@ function ChooseSide(props) {
               </span>
             </label>
           </div>
-          <div className={`mr-5 flex column align-center ${side==='cross' && 'transition-opacity'}`}>
+          <div className={`flex column align-center ${side==='cross' && 'transition-opacity'}`}>
             <img
               src={require("../../assets/images/o.png")}
               alt="zero"
