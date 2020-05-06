@@ -4,7 +4,7 @@
   align-items: center;
   min-height: 100vh;
 }
-.container{
+.container {
   padding: 25px;
   overflow-x: hidden;
 }
@@ -41,8 +41,8 @@ button {
 .w-100 {
   width: 100%;
 }
-.w-25{
-  width:100px
+.w-25 {
+  width: 100px;
 }
 .flex {
   display: flex;
@@ -92,10 +92,9 @@ button {
 .mb-20 {
   margin-bottom: 80px;
 }
-.bold{
-font-weight: bold;
+.bold {
+  font-weight: bold;
 }
-.px-2{
-  padding-left: 8px;
-  padding-right: 8px;
+.theme-color {
+  color: #1b5daf;
 }

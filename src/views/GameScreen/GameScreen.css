@@ -1,20 +1,23 @@
-table{
+table {
   margin-bottom: 40px;
   padding: 20px;
   background-color: white;
-  border-radius: 8px;;
+  border-radius: 8px;
   box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.2);
 }
-td{
+td {
   padding: 0 4px;
+  min-width: 80px;
+  height: 80px;
+  cursor: url("../../assets/images/o.png"), pointer;
 }
-.border-bottom{
+.border-bottom {
   border-bottom: 2px solid #eee;
 }
-.border-right{
+.border-right {
   border-right: 2px solid #eee;
 }
-.table-icon{
-  width:80px;
-  height:80px;
+.table-icon {
+  width: 80px;
+  height: 80px;
 }

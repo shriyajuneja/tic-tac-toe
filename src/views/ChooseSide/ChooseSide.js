@@ -9,7 +9,11 @@ function ChooseSide(props) {
       <div className="flex align-center column container">
         <h3 className="mb-20">Pick your side</h3>
         <div className="flex mb-20">
-          <div className={`mr-5 flex column align-center ${side==='zero' && 'transition-opacity'}`}>
+          <div
+            className={`mr-5 flex column align-center ${
+              side === "zero" && "transition-opacity"
+            }`}
+          >
             <img
               src={require("../../assets/images/x.png")}
               alt="cross"
@@ -31,7 +35,11 @@ function ChooseSide(props) {
               </span>
             </label>
           </div>
-          <div className={`flex column align-center ${side==='cross' && 'transition-opacity'}`}>
+          <div
+            className={`flex column align-center ${
+              side === "cross" && "transition-opacity"
+            }`}
+          >
             <img
               src={require("../../assets/images/o.png")}
               alt="zero"
@@ -57,7 +65,10 @@ function ChooseSide(props) {
         <button
           className="white"
           onClick={() => {
-            props.history.push("/game");
+            props.history.push({
+              pathname: "/game",
+              state: { ...props.location.state, side: side },
+            });
           }}
         >
           Continue
